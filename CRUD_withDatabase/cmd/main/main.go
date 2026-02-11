@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	r := mux.newRouter()
+	r := mux.NewRouter()
 	routes.RegisterBookStoreRoutes(r)
 	http.Handle("/", r)
 	

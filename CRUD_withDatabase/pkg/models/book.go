@@ -5,7 +5,7 @@ import (
 	"github.com/coldnebraska/golang/CRUD_withDatabase/pkg/config"
 )
 
-var db *gorm.db
+var db *gorm.DB
 
 type Book struct {
 	gorm.Model
